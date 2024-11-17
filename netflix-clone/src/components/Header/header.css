@@ -1,0 +1,53 @@
+.header_outer_container{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(148, 132, 132); */
+    background-color: rgb(20, 20, 20);
+    /* background-color: transparent; */
+    height: 10vh;
+    color: white;
+    transition:all 0.5s;
+    transition-timing-function: ease-in;
+    z-index: 1;
+    /* background-color: red; */
+
+}
+.nav_balck{
+    background-color: rgb(20, 20, 20);
+}
+
+.header_container{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+        width: 100%;
+         padding: 0 10px;
+    /* background-color: yellow; */
+}
+/* Left section styling */
+.header_left ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    /* width: auto; 
+   flex-grow: 1;  */
+       cursor: pointer;
+}
+
+/* Right section styling */
+.header_right ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    /* width: auto;  */
+    cursor: pointer;
+}
+.header_right ul li, .header_left ul li {
+    margin: 0 10px; /* Adjust the spacing between items */
+}
